@@ -2,7 +2,7 @@
 numpy, pandas, tqdm, sklearn, scipy, nltk, joblib
 
 2. Data preprocessing:
-In this work, we use sklearn.feature_extraction.text.TfidfVectorizer get generate features from the content: 'tile'+'author'+'title'.
+In this work, we use sklearn.feature_extraction.text.TfidfVectorizer to generate features from the content: 'tile'+'author'+'title'.
 
 3. Training Data was splitted into train/valid by 8/2. valid data was used for model selection. 
 4. Model for fake news detection:
